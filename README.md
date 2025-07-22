@@ -117,7 +117,3 @@ The Z Framework formalizes an invariant geometric pattern via \( Z = A(B/C) \), 
 - Empirical/numerical focus; lacks full analytic derivations.
 - Mappings are illustrative, not exhaustive.
 - No predictions; value in reframing questions.
-
-## Appendix: Source Code
-
-Python script (NumPy, SymPy, Matplotlib) available on request for reproducibility.
