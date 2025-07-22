@@ -241,6 +241,42 @@ The resulting metric, $Z_{eco} = N \cdot (r/r_{max})$, represents the population
 
 ***
 
+Here is a simple test of the Z-metric for Population Ecology, with findings reported.
+
+The Z-metric, defined as $Z_{eco} = N \cdot (r / r_{max})$, was tested by comparing two populations of the same species (e.g., rabbits) under different environmental pressures. This test evaluates if the metric provides a nuanced view of a population's status beyond its raw numbers.
+
+***
+
+### Test Design
+
+The test calculates the Z-metric for two rabbit populations. The **Invariant Context (C)**, or the species' intrinsic rate of increase ($r_{max}$), is set to a constant value of **3.0 per year** for both populations.
+
+1.  **Ideal Population:** A small, new population in an environment with abundant resources.
+2.  **Mature Population:** A large, established population in an environment near its carrying capacity.
+
+***
+
+### Data and Calculations
+
+Using realistic ecological parameters, the Z-metric was calculated for each population.
+
+| Population | Population Size (N) | Current Growth Rate (r) | Calculation ($N \cdot r/r_{max}$) | **Z-Metric** |
+| :--- | :--- | :--- | :--- | :--- |
+| 1. Ideal | 100 | 2.8 per year | $100 \cdot (2.8/3.0)$ | **93.3** |
+| 2. Mature | 5,000 | 0.2 per year | $5,000 \cdot (0.2/3.0)$ | **335.0** |
+
+***
+
+### Findings
+
+The Z-metric provides a single value representing the population's "effective size" or ecological momentum, which is different from its raw count.
+
+* **Growth Efficiency:** The Z-metric highlights the efficiency of each population. The ideal population is realizing 93.3% of its maximum biological growth potential ($2.8/3.0$), making its Z-score (93.3) very close to its actual size (100).
+* **Environmental Pressure:** The mature population, while 50 times larger, is heavily suppressed by its environment. It is only realizing 6.7% of its growth potential ($0.2/3.0$). This results in a Z-score (335.0) that is drastically lower than its actual population size (5,000).
+
+In conclusion, the Z-metric successfully quantifies a population's status by scaling its size by its current growth performance relative to its biological limits. It provides a more nuanced measure than population size alone by distinguishing between a small but dynamic population and a large but suppressed one.
+
+
 ### 2. Information Theory
 
 This mapping yields a metric describing the effective transfer of a block of data, combining its size with the efficiency of the channel transmitting it.
