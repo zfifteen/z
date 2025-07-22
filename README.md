@@ -104,6 +104,48 @@ Smaller run (\( n=200 \)): Composites Z ≈47.25, primes ≈12.13, with spikes/d
 
 This formalizes resonant patterns; zeta appears as an approximation.
 
+Of course. Here are two other domains where the Z Framework could be applied, including the component mappings and their justifications.
+
+***
+
+### 1. Thermodynamics
+
+The framework can be mapped to describe the state of a thermodynamic system, yielding a metric that combines its total complexity with its thermal activity.
+
+#### **Component Mapping**
+
+* **A (Magnitude) = Entropy ($S$)**
+    * Entropy is a direct measure of a system's disorder, or the number of possible microscopic arrangements (microstates) it can have. This represents the system's total informational size or static complexity, making it a perfect fit for the **Magnitude** component.
+* **B (Dynamics) = Temperature ($T$)**
+    * Temperature is a measure of the average kinetic energy of the particles in a system. It directly governs the system's activity—how fast particles are moving, vibrating, and interacting. It is the engine of change and therefore fits the **Dynamics** component.
+* **C (Invariant Context) = A Reference Temperature ($T_{ref}$)**
+    * To make the dynamics relative, we need a benchmark. This could be a standard temperature (e.g., 298 K or 25°C) or a phase change temperature for a substance within the system (e.g., the boiling point of water, 373 K). This benchmark serves as a fixed, **Invariant Context** against which the system's current activity is measured.
+
+#### **Resulting Formula**
+The Z-metric for thermodynamics would be:
+$$Z_{thermo} = S \cdot \frac{T}{T_{ref}}$$
+This formula yields a dimensionless quantity representing the system's total entropy, scaled by how thermally active it is relative to a standard context.
+
+---
+
+### 2. Macroeconomics
+
+The framework can be used to create a metric for a nation's "economic momentum," combining the sheer size of its economy with its current growth performance.
+
+#### **Component Mapping**
+
+* **A (Magnitude) = Gross Domestic Product (GDP)**
+    * GDP is the total monetary value of all goods and services produced within a country over a specific period. It is the primary, standard measure of the overall size and scale of an economy, making it the ideal **Magnitude** component.
+* **B (Dynamics) = GDP Growth Rate (%)**
+    * The GDP growth rate is a direct measure of an economy's change and activity. A positive rate indicates expansion, while a negative rate indicates contraction. This percentage perfectly represents the **Dynamics** of the economic system.
+* **C (Invariant Context) = Target Growth Rate (%)**
+    * Economies are often managed with a goal in mind, typically a "sustainable" or "ideal" growth rate (e.g., 2-3%) that avoids high inflation or recession. This target rate serves as a stable, fixed benchmark or **Invariant Context** against which the actual performance can be judged.
+
+#### **Resulting Formula**
+The Z-metric for economics would be:
+$$Z_{econ} = \text{GDP} \cdot \frac{G_{actual}}{G_{target}}$$
+This formula yields a value (in currency units) representing the size of the economy, scaled by its success in achieving its target growth. An economy meeting its target has a Z-value equal to its GDP, while one exceeding its target would have a Z-value greater than its GDP.
+
 # 4. Synthesis and Discussion
 
 Applying \( Z = A(B/C) \) consistently reveals geometric parallels, suggesting physics and math share observational structures. The framework re-contextualizes Schwarzschild as a 5D projection and zeta as approximating Z(n) harmonics.
