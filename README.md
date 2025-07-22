@@ -1,4 +1,4 @@
-## Z: An Invariant Geometric Ontology
+## Z: An Invariant Geometric Ontology Revealed
 
 The core hypothesis posits that an invariant geometric ontology, termed **Z**, is the fundamental reality underlying all physical and mathematical regimes. Standard formalisms, like the Lorentz transformations in physics, are considered emergent descriptions of Z's underlying geometry.
 
