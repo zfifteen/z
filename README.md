@@ -185,6 +185,43 @@ The Z-metric for economics would be:
 $$Z_{econ} = \text{GDP} \cdot \frac{G_{actual}}{G_{target}}$$
 This formula yields a value (in currency units) representing the size of the economy, scaled by its success in achieving its target growth. An economy meeting its target has a Z-value equal to its GDP, while one exceeding its target would have a Z-value greater than its GDP.
 
+Here is a simple test of the Z-metric for macroeconomics, with findings reported.
+
+The Z-metric, defined as $Z_{econ} = \text{GDP} \cdot (G_{actual} / G_{target})$, was tested by comparing the economies of the United States (a large, mature economy) and China (a large, developing economy) for the year 2023. This test evaluates if the metric provides a more nuanced view of economic health than GDP alone.
+
+***
+
+### Test Design
+
+The test calculates the Z-metric for the US and China using 2023 data. The **Invariant Context (C)**, or target growth rate ($G_{target}$), is set to a sustainable ideal of **3.0%** for both nations to serve as a consistent benchmark.
+
+1.  **United States:** A high-GDP, lower-growth economy.
+2.  **China:** A high-GDP, higher-growth economy.
+
+***
+
+### Data and Calculations
+
+Using 2023 economic data, the Z-metric was calculated for each country.
+
+| Country | GDP (Magnitude A) | Actual Growth (Dynamics B) | Calculation ($\text{GDP} \cdot G_{actual}/G_{target}$) | **Z-Metric** |
+| :--- | :--- | :--- | :--- | :--- |
+| USA | $27.36 trillion | 2.5% | $\$27.36T \cdot (2.5\%/3.0\%)$ | **$22.80 trillion** |
+| China | $17.70 trillion | 5.2% | $\$17.70T \cdot (5.2\%/3.0\%)$ | **$30.68 trillion** |
+
+***
+
+### Findings
+
+The test reveals that the Z-metric provides a dramatically different perspective than a direct GDP comparison.
+
+* **Standard View (GDP):** Based on GDP alone, the U.S. economy ($27.36T) was approximately 55% larger than China's ($17.70T) in 2023.
+* **Z-Metric View:** The Z-metric, which accounts for growth dynamics, rated China's "economic momentum" **($30.68T) as 35% higher** than that of the U.S. ($22.80T).
+
+The reason for this reversal is clear. The Z-metric scales the raw magnitude of an economy by its performance relative to a goal. The U.S. economy, while massive, grew slower than the 3.0% target, resulting in a Z-score lower than its actual GDP. In contrast, China's economy significantly outperformed the target, boosting its Z-score to a value much higher than its GDP.
+
+In conclusion, the Z-metric successfully creates a single "momentum" score that reframes the comparison between economies. Instead of just rewarding size, it rewards dynamic performance, offering a valuable alternative lens for analysis.
+
 # 4. Synthesis and Discussion
 
 Applying \( Z = A(B/C) \) consistently reveals geometric parallels, suggesting physics and math share observational structures. The framework re-contextualizes Schwarzschild as a 5D projection and zeta as approximating Z(n) harmonics.
