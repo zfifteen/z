@@ -222,6 +222,54 @@ The reason for this reversal is clear. The Z-metric scales the raw magnitude of 
 
 In conclusion, the Z-metric successfully creates a single "momentum" score that reframes the comparison between economies. Instead of just rewarding size, it rewards dynamic performance, offering a valuable alternative lens for analysis.
 
+Here are three more domains with suggested component mappings for the Z-Framework.
+
+***
+
+### 1. Population Ecology
+
+This mapping creates a metric for a population's overall impact, combining its current size with its growth performance relative to its biological potential.
+
+* **A (Magnitude) = Population Size ($N$)**
+    * This is the total number of individuals in the population. It is the direct, primary measure of the population's static size.
+* **B (Dynamics) = Net Growth Rate ($r$)**
+    * This is the rate at which the population is currently increasing or decreasing (births minus deaths). It is the direct measure of the population's dynamics.
+* **C (Invariant Context) = Intrinsic Rate of Increase ($r_{max}$)**
+    * This is the theoretical maximum per-capita growth rate for a species in an ideal environment with unlimited resources. It's a fundamental, invariant biological constant for the species itself, serving as a perfect benchmark for its current performance.
+
+The resulting metric, $Z_{eco} = N \cdot (r/r_{max})$, represents the population's size scaled by how efficiently it is growing compared to its maximum potential.
+
+***
+
+### 2. Information Theory
+
+This mapping yields a metric describing the effective transfer of a block of data, combining its size with the efficiency of the channel transmitting it.
+
+* **A (Magnitude) = Data Size ($D$)**
+    * This is the total amount of information to be sent, measured in bits or bytes. It represents the static magnitude of the task.
+* **B (Dynamics) = Actual Data Rate ($R$)**
+    * This is the current throughput or speed at which the data is being successfully transmitted over a channel, measured in bits per second. This is the measure of the system's activity.
+* **C (Invariant Context) = Channel Capacity ($C_{Shannon}$)**
+    * The Shannon-Hartley theorem defines the theoretical maximum rate at which data can be sent over a channel with a specific bandwidth and signal-to-noise ratio. This is a fundamental, invariant limit of the communication context.
+
+The resulting metric, $Z_{info} = D \cdot (R/C_{Shannon})$, represents the data's size scaled by the efficiency of the channel's use.
+
+***
+
+### 3. Stellar Astrophysics
+
+This mapping creates a metric that describes a star's stability, combining its mass with how close it is to tearing itself apart from its own radiation.
+
+* **A (Magnitude) = Stellar Mass ($M$)**
+    * The mass of a star is its most fundamental property, dictating its entire life cycle, luminosity, and eventual fate. It is the ultimate measure of its magnitude.
+* **B (Dynamics) = Luminosity ($L$)**
+    * Luminosity is the total energy a star radiates per second. It is the direct measure of the star's dynamic energy output.
+* **C (Invariant Context) = Eddington Luminosity ($L_{edd}$)**
+    * This is the theoretical maximum luminosity a star of a given mass can achieve before its own radiation pressure overcomes its gravitational force, blowing its outer layers away. It is the fundamental stability limit for that specific star, making it the perfect invariant context.
+
+The resulting metric, $Z_{star} = M \cdot (L/L_{edd})$, represents the star's mass scaled by its radiative stability. The ratio $L/L_{edd}$ is already a critical dimensionless parameter used by astrophysicists.
+
+
 # 4. Synthesis and Discussion
 
 Applying \( Z = A(B/C) \) consistently reveals geometric parallels, suggesting physics and math share observational structures. The framework re-contextualizes Schwarzschild as a 5D projection and zeta as approximating Z(n) harmonics.
